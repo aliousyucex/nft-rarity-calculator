@@ -3,8 +3,13 @@ const fs = require("fs")
 const path = require("path")
 
 const getRarity = async () => {
-  const nfts = []
+  const nfts = [];
 
+  for (let i = 0; i < 6666; i++) {
+    const rawNft = fs.readFileSync(path.join(basePath, "assets", `${i}.json`));
+    const nft = JSON.parse(rawNft);
+    console.log(`Processing NFT ${i}`);
+    nfts.push(nft)
   }
 
   processRarity(nfts)
@@ -17,9 +22,9 @@ function processRarity(nfts) {
   // loop through all nfts
   for(const nft of nfts) {
     // check if attributes exist
-    if(nft.metadata?.attributes?.length > 0) {
+    if(nft.attributes?.length > 0) {
       // loop through all attributes
-      for(attribute of nft.metadata.attributes) {
+      for(attribute of nft.attributes) {
         // add trait type to rarity object if it doesn't exist
         if(!rarity[attribute.trait_type]) {
           rarity[attribute.trait_type] = {}
@@ -40,10 +45,10 @@ function processRarity(nfts) {
 
   // create a total rarity score for each nft by adding up all the rarity scores for each trait type
   let filterAndTotal = nfts
-    .filter(nft => !!nft.metadata?.attributes)
+    .filter(nft => !!nft.attributes)
     .map(nft => {
       let totalScore = 0;
-      for(attribute of nft.metadata.attributes) {
+      for(attribute of nft.attributes) {
         attribute.rarity_score = rarity[attribute.trait_type][attribute.value].rarityScore
         totalScore += parseFloat(attribute.rarity_score)
       }
