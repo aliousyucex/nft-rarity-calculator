@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #2",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "2.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Silver Piercing"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "None"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Dark Blue Punk Hair"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Third Bronz"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #0",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "0.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Diamond Solitaire Bronz"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Monocle Gold"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Curly Brown Hair"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Diamond"
+    }
+  ]
+}

@@ -4,8 +4,9 @@
   "description": "An NFT rarity calculator.",
   "main": "rarity.js",
   "scripts": {
-    "get_rarity": "node rarity.js",
-    "rarity_rank": "node rarity_rank.js"
+    "create": "node rarity.js",
+    "rank": "node rarity_rank.js",
+    "export": "node export.js"
   },
   "author": "Jesse Hall (codeSTACKr)",
   "license": "MIT",

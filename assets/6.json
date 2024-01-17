@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #6",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "6.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Albino"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Roboeye"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Crema cat"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Half Blue"
+    }
+  ]
+}

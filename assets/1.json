@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #1",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Dark Blue"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Ruby Gold"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Quenn"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Third Bronz"
+    }
+  ]
+}

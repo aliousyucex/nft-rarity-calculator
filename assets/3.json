@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #3",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "3.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "None"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Monocle Bronz"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Brown Ying Yang Bandana"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Quarter Bronz & Silver"
+    }
+  ]
+}

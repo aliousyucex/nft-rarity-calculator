@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #4",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "4.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "None"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Monocle Silver"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Pink Samurai Hair"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Nuclear"
+    }
+  ]
+}

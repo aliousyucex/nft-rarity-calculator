@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #8",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "8.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Black"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Cross"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "RoboeyeV2"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "King"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Quarter Bronz & Silver"
+    }
+  ]
+}

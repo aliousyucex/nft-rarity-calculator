@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #10",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "10.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Ruby Gold"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "Scar"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Green & Red Punk Hair"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "Kunai"
+    }
+  ]
+}

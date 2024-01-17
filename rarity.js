@@ -4,12 +4,18 @@ const path = require("path")
 
 const getRarity = async () => {
   const nfts = [];
+  const isZeroExist = fs.existsSync(path.join(basePath, "assets", "0.json"));
 
-  for (let i = 0; i < 6666; i++) {
-    const rawNft = fs.readFileSync(path.join(basePath, "assets", `${i}.json`));
-    const nft = JSON.parse(rawNft);
-    console.log(`Processing NFT ${i}`);
-    nfts.push(nft)
+  // Yeah, simple and idiot hacky.
+  for (let i = isZeroExist ? 0 : 1; i < 999999; i++) {
+    try {
+      const rawNft = fs.readFileSync(path.join(basePath, "assets", `${i}.json`));
+      const nft = JSON.parse(rawNft);
+      console.log(`Processing NFT ${i}`);
+      nfts.push(nft)
+    } catch {
+      break;
+    }
   }
 
   processRarity(nfts)

@@ -1,0 +1,27 @@
+{
+  "name": "Ivories #5",
+  "description": "Are these teeth a blessing or punishment?",
+  "image": "5.png",
+  "attributes": [
+    {
+      "trait_type": "BODY",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "EAR",
+      "value": "Bronz Ring"
+    },
+    {
+      "trait_type": "EYES",
+      "value": "X"
+    },
+    {
+      "trait_type": "HEAD",
+      "value": "Dark Blue Rasta Hair"
+    },
+    {
+      "trait_type": "IVORYS",
+      "value": "None"
+    }
+  ]
+}
